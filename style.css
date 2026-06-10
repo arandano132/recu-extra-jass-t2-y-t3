@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+header{
+    background-color:#003366;
+    color:white;
+    padding:15px 30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+.hero{
+    position:relative;
+}
+
+.hero img{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+    display:block;
+}
+
+.texto-hero{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    background-color:rgba(0,0,0,0.5);
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+.presentacion{
+    text-align:center;
+    padding: 80px;
+}
+
+.presentacion h2{
+    margin-bottom:10px;
+}
+
+.cursoss {
+    margin-left: 600px;
+    background-color: rgb(137, 177, 179, 0.938);
+}
+
+.cursos{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:30px;
+    background-color: rgba(137, 177, 179, 0.938);
+}
+
+
+.curso{
+    width:250px;
+    border:1px solid black;
+    padding:15px;
+    text-align:center;
+}
+
+.curso h3{
+    margin-bottom:10px;
+}
+
+.horarios{
+    padding:30px;
+}
+
+.horarios h2{
+    text-align:center;
+    margin-bottom:15px;
+}
+
+table{
+    width:80%;
+    margin:auto;
+    border-collapse:collapse;
+}
+
+table, th, td{
+    border:1px solid black;
+}
+
+th, td{
+    padding:10px;
+    text-align:center;
+}
+
+.formulario{
+    padding: 100px;
+    background-color: cadetblue;
+}
+
+.formulario h2{
+    text-align:center;
+    margin-bottom:15px;
+}
+
+form{
+    width:50%;
+    margin:auto;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+button{
+    padding:10px;
+}
+
+footer{
+    background-color:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
+}
